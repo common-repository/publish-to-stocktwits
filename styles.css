@@ -1,0 +1,109 @@
+#boxLeft{
+	width: 50%;
+	float: left;
+}
+#boxRight{
+	width: 50%;
+	float: right;
+}
+#authHelp li{
+	/*height: 150px;
+	/*width: 300px; */
+	
+}
+#authHelp p{
+max-width:500px; 
+}
+
+
+.thumb{
+	position: relative;
+	/*top: -70px;
+	left: 400px; */
+	z-index: 100;
+	width: 75px;
+	height: 75px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 3px solid rgba(0, 116, 162, 0.9);
+	transition-duration:  0.05s;
+	transition-timing-function: ease-in-out;
+}
+.hover{
+	
+	border: 3px solid rgba(0, 116, 162, 0.6);
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#dismiss {
+position: relative;
+top:9px;
+display:inline;
+text-decoration: underline;
+color: #0074A2;
+}
+#dismiss:hover{
+text-decoration: underline;
+color: rgba(0, 116, 162, 0.7);
+transition-duration:  0.05s;
+transition-timing-function: ease-in-out;
+}
+#symbolBox{
+margin-bottom:10px;
+}
+#addTicker{
+float: right;
+
+}
+#symbolSelector{
+	margin: 0 auto;
+	margin-top: 10px;
+	padding:5px 5px 15px 5px;
+	background-color: #FFFBCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	
+}
+.counterDisplay{
+display: inline;
+}
+.symbol{
+text-transform:uppercase;
+display: inline;
+margin-right: 5px;
+}
+
+#feedbackMessages{
+position: absolute;
+top: 0px;
+left: -20.6%;
+z-index: 100;
+background-color: #FFFBCC;
+width: 120%;
+padding: 5px;
+text-align: center;
+font-weight: bold;
+color: #0074A2;
+
+}
+.inactive{
+	height: 0px;
+	opacity: 0;
+	transition-property: opacity;
+    transition-duration: .15s;
+}
+.active{
+	height: auto;
+	opacity: 1.0;
+ 	transition-property: opacity;
+    transition-duration: .15s;
+	
+}
+#twitbox{
+width:100%;
+}
